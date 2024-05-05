@@ -1,0 +1,9 @@
+.the-record-page-manager{
+  margin-top: 2rem;
+}
+
+@media(width<=390px){
+  .table-manager{
+    width: 30%;
+  }
+}

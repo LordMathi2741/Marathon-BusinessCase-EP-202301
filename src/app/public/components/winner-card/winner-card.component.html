@@ -1,0 +1,23 @@
+<div class="the-winner-card-manager" aria-label="The winner card manager">
+ @if(participantWinner){
+   <mat-card aria-label="The winner card content">
+     <mat-card-content aria-label="The winner card content">
+       <h1> Participant Winner </h1>
+       <h1> FirstName: {{participantWinner.firstName}}</h1>
+       <h1> LastName: {{participantWinner.lastName}}</h1>
+       <img [src]="participantWinner.photoUrl" alt="participantWinner.firstName" width="250" height="200">
+       <h1> Center Id: {{participantWinner.centerId}}</h1>
+       <h1> Ranking: {{participantWinner.ranking}}</h1>
+       <h1> RecordTime: {{participantWinner.recordTime}}</h1>
+
+     </mat-card-content>
+   </mat-card>
+ }@else{
+    <mat-card aria-label="The no winner card">
+      <mat-card-content aria-label="The no winner card content">
+        <h1> No Winner </h1>
+      </mat-card-content>
+    </mat-card>
+ }
+
+</div>

@@ -1,0 +1,35 @@
+.mat-toolbar{
+  display:flex;
+  justify-content:space-between;
+}
+
+.toolbar-container-manager{
+  background-color: indianred;
+  color:whitesmoke;
+}
+
+.section-manager{
+  display:flex;
+   gap:1rem;
+}
+
+.section-manager span:hover{
+  cursor:pointer;
+  color:black;
+  transform: scale(1.1);
+  transition: ease-in 0.7s;
+}
+
+
+
+@media(width<=430px) and (width>430px){
+  .toolbar-container-manager{
+    display:flex;
+    flex-direction:column;
+    font-size: 1rem;
+    height: 80px;
+    width: 25rem;
+  }
+
+}
+
