@@ -2,8 +2,9 @@
   margin-top: 2rem;
 }
 
-@media(width<=390px){
-  .table-manager{
-    width: 30%;
-  }
+@media(width<=512px){
+   .mat-elevation-z8{
+     font-size: 1rem;
+   }
+
 }
